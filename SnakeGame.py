@@ -15,8 +15,8 @@ offsets = {
     "right": (20, 0)
 }
 
-# Lambs makes a function that simplifies changing 
-# direction editing what it does depending on the user inpit
+# Lambda makes a function that simplifies changing 
+# direction editing what it does depending on the user input
 def bind_direction_keys():
     #                      command (direction) v  -  v in response to this key
     screen.onkey(lambda: set_snake_direction("up"), "Up")
